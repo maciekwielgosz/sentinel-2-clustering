@@ -9,6 +9,8 @@ Steps to follow:
 4. Run `cluster.py`
 
 
+The recommended way if runnning is using `pipeline.sh` i.e. `bash pipeline.sh`
+
 
 
 

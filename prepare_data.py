@@ -33,6 +33,8 @@ df = pd.DataFrame({
     'label': labels
 })
 
+df['label_id'] = pd.factorize(df['label'])[0]
+
 # check the dataframe
 print(df.head())
 

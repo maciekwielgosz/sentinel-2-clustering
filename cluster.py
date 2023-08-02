@@ -10,7 +10,7 @@ svd_columns = [f'svd_{i}' for i in range(16)]
 svd_data = df[svd_columns]
 
 # create a KMeans object and fit it to the SVD data
-kmeans = KMeans(n_clusters=5, random_state=0).fit(svd_data)
+kmeans = KMeans(n_clusters=6, random_state=0).fit(svd_data)
 
 # get the cluster IDs assigned by the KMeans object
 cluster_ids = kmeans.labels_
